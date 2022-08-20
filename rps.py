@@ -34,6 +34,7 @@ def get_user_choice(input_str):
     
     return INVALID
 
+
 def play_rock_paper_sissors():
     num_of_rounds = int(input("How many games do you want to play?\n"))
     round_count = 0
@@ -77,17 +78,6 @@ def play_rock_paper_sissors():
         return("Da Fak, we tied???")
 
   
-# def long_hand(letter):
-#     if letter == SISSORS:
-#         return "sissors"
-#     elif letter == ROCK:
-#         return "rock"
-#     elif letter == PAPER:
-#         return "paper"
-
-
-
-
 def is_win(player,opponent):
     #returns true if player wins
 
@@ -103,7 +93,3 @@ def is_win(player,opponent):
         return False
     elif player == SISSORS and opponent == PAPER:
         return True
-    
-
-
-#print(play_rock_paper_sissors())
